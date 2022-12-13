@@ -11,7 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1 class="heading">Web Dev Demo Day 2</h1>
-    <p class="paragraph">Pro Class</p>
+    <h1 class+
+    ="heading">Web Dev Demo Day 2</h1>
+    <button class="pro_class">Pro Class</button>
+    <div class="menu menu-hidden">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque architecto quibusdam voluptatum, sunt culpa magni accusantium minus possimus, quisquam consectetur, voluptatibus ab labore? Deserunt quisquam facere iusto cum commodi eaque?</p>
+    </div>
+
 </body>
+<script>
+    const proButton = document.querySelector(".pro_class");
+    const menu = document.querySelector(".menu");
+
+    proButton.addEventListener("click", () => {
+        menu.classList.toggle("menu-hidden");
+        menu.classList.toggle("menu-visible");
+    })
+</script>
 </html>
