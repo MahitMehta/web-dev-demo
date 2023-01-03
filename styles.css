@@ -18,10 +18,11 @@ body {
     border-radius: 7.5px;
     color: white; 
     transition: 250ms ease;
+    border: 2px solid #111111; 
 }
 
 .pro_class:hover {
-    filter: brightness(70%);
+    /* filter: brightness(70%); */
     box-shadow: 0px 0px 0px 2px white;
 }
 
